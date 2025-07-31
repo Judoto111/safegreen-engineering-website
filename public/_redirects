@@ -1,0 +1,11 @@
+# Force HTTPS redirection for all domains
+http://*.netlify.app/* https://:splat 301!
+https://*.netlify.app/* https://:splat 301!
+
+# Force HTTPS for custom domains (if you have any)
+# Uncomment and modify these lines if you have a custom domain
+# http://yourdomain.com/* https://yourdomain.com/:splat 301!
+# http://www.yourdomain.com/* https://yourdomain.com/:splat 301!
+
+# Handle client-side routing for React SPA
+/*    /index.html   200
