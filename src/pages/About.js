@@ -44,28 +44,40 @@ const About = () => {
 
   const team = [
     {
-      name: 'John Kamau',
-      position: 'Managing Director',
+      name: 'SIMON KIMUTAI',
+      position: 'DIRECTOR',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face',
       experience: '25+ years',
     },
     {
-      name: 'Sarah Wanjiku',
-      position: 'Technical Director',
+      name: 'SAMORA MWIROTSI',
+      position: 'ENGINEER MECHANICAL',
       image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face',
       experience: '20+ years',
     },
     {
-      name: 'David Ochieng',
-      position: 'Operations Manager',
+      name: 'BENARD MWANGI',
+      position: 'ENGINEER ELECTRICAL',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face',
       experience: '15+ years',
     },
     {
-      name: 'Grace Muthoni',
-      position: 'Project Manager',
+      name: 'MOSES SADERA',
+      position: 'BIM MANAGER',
       image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face',
       experience: '12+ years',
+    },
+    {
+      name: 'JONAH LANGAT',
+      position: 'NETWORK ENGINEER',
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face',
+      experience: '10+ years',
+    },
+    {
+      name: 'EVANS CHIRCHIR',
+      position: 'LOGISTICS',
+      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face',
+      experience: '8+ years',
     },
   ];
 
@@ -403,20 +415,20 @@ const About = () => {
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[{
-              name: 'John Kamau',
-              title: 'Managing Director',
+              name: 'SIMON KIMUTAI',
+              title: 'DIRECTOR',
               image: 'https://randomuser.me/api/portraits/men/32.jpg',
-              bio: 'John brings over 20 years of experience in mechanical engineering and project management.'
+              bio: 'Simon brings over 25 years of experience in mechanical engineering and project management.'
             }, {
-              name: 'Sarah Wanjiku',
-              title: 'Technical Director',
+              name: 'SAMORA MWIROTSI',
+              title: 'ENGINEER MECHANICAL',
               image: 'https://randomuser.me/api/portraits/women/44.jpg',
-              bio: 'Sarah is an expert in sustainable building systems and leads our technical team.'
+              bio: 'Samora is an expert in mechanical engineering systems and leads our technical team.'
             }, {
-              name: 'David Ochieng',
-              title: 'Operations Manager',
+              name: 'BENARD MWANGI',
+              title: 'ENGINEER ELECTRICAL',
               image: 'https://randomuser.me/api/portraits/men/65.jpg',
-              bio: 'David ensures our projects run smoothly and clients are always satisfied.'
+              bio: 'Benard specializes in electrical engineering and ensures all electrical systems are optimally designed.'
             }].map((member, idx) => (
               <motion.div
                 key={member.name}

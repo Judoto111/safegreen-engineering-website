@@ -89,7 +89,7 @@ const Projects = () => {
       structuralEngineer: 'Abba & Wandu Consulting Engineers',
       quantitySurveyor: 'Nyange Intergrated Consultants Ltd',
       value: 'KES 93 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       progress: 85,
       expectedCompletion: 'March 2024',
       label: 'GHANA HIGH COMMISSION'
@@ -108,7 +108,7 @@ const Projects = () => {
       structuralEngineer: 'Metrix Intergrated',
       quantitySurveyor: 'Mwashinga & Associates',
       value: 'KES 663 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       progress: 70,
       expectedCompletion: 'June 2024',
       label: 'AMANI BEACHFRONT'
@@ -126,7 +126,7 @@ const Projects = () => {
       structuralEngineer: 'Metrix Intergrated',
       quantitySurveyor: 'Mwashinga & Associates',
       value: 'KES 722 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       label: 'NAURAS'
     },
     {
@@ -143,7 +143,7 @@ const Projects = () => {
       structuralEngineer: 'Metrix Integrated',
       quantitySurveyor: 'Costwise Consultants',
       value: 'KES 85 Million',
-      contract: 'Specialized Contract',
+      contract: 'SUB CONTRACT',
       progress: 80,
       expectedCompletion: 'April 2024',
       label: 'SAFARICOM'
@@ -161,7 +161,7 @@ const Projects = () => {
       structuralEngineer: 'Abba & Wandu Engineers',
       quantitySurveyor: 'Zimaki Consultants',
       value: 'KES 120 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       label: 'UON SCIENCE'
     },
     {
@@ -176,7 +176,7 @@ const Projects = () => {
       value: 'KES 3,500,000',
       progress: 60,
       expectedCompletion: 'May 2024',
-      contract: 'Specialized Contract',
+      contract: 'SUB CONTRACT',
       label: 'BOREHOLE'
     },
     {
@@ -191,7 +191,7 @@ const Projects = () => {
       value: 'KES 1,600,000',
       progress: 40,
       expectedCompletion: 'July 2024',
-      contract: 'Specialized Contract',
+      contract: 'SUB CONTRACT',
       label: 'HVAC'
     },
     {
@@ -206,7 +206,7 @@ const Projects = () => {
       value: 'KES 1,250,000',
       progress: 75,
       expectedCompletion: 'June 2024',
-      contract: 'Specialized Contract',
+      contract: 'SUB CONTRACT',
       label: 'SAFARICOM'
     },
     {
@@ -222,7 +222,7 @@ const Projects = () => {
       structuralEngineer: 'ARUP',
       quantitySurveyor: 'Costwise Consultants',
       value: 'KES 180 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       label: 'TATU CITY'
     },
     {
@@ -238,7 +238,7 @@ const Projects = () => {
       structuralEngineer: 'Metrix Integrated',
       quantitySurveyor: 'Costwise Consultants',
       value: 'KES 210 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       label: 'SAROVA'
     },
     {
@@ -252,7 +252,7 @@ const Projects = () => {
       gallery: [],
       client: 'Ridgeview Villas Ltd',
       value: 'KES 95 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       label: 'RIDGEVIEW'
     },
     {
@@ -266,7 +266,7 @@ const Projects = () => {
       gallery: [],
       client: 'Milas Prima',
       value: 'KES 180 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       label: 'SECOND AVENUE'
     },
     {
@@ -282,7 +282,7 @@ const Projects = () => {
       architect: 'Octa Architects',
       quantitySurveyor: 'Northwind Consultants',
       value: 'KES 150 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       label: 'WESTLANDS APARTMENTS'
     },
     {
@@ -298,7 +298,7 @@ const Projects = () => {
       architect: 'Spectrum Architects',
       quantitySurveyor: 'Munderu & Associates',
       value: 'KES 560 Million',
-      contract: 'Sub Contract - 70 Million',
+      contract: 'SUB CONTRACT',
       label: 'MOWLEM HEIGHTS'
     },
     {
@@ -314,7 +314,7 @@ const Projects = () => {
       architect: 'Huduma Consulting Ltd',
       quantitySurveyor: 'Quantilab Consulting',
       value: 'KES 390 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       label: 'VERNONIA APARTMENTS'
     },
     {
@@ -329,7 +329,7 @@ const Projects = () => {
       client: 'Globe Developers Ltd',
       quantitySurveyor: 'Tower Cost Consultants Ltd',
       value: 'KES 584 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       label: 'RUMAISA'
     },
     {
@@ -344,7 +344,7 @@ const Projects = () => {
       client: 'Jumeirah Beach',
       architect: 'Sitescope Studio Ltd',
       value: 'KES 415 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       label: 'JUMERIRAH'
     },
     {
@@ -360,7 +360,7 @@ const Projects = () => {
       architect: 'Kujenga Group',
       quantitySurveyor: 'Built Sync Consult',
       value: 'KES 448 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       label: 'FAIRFIELD'
     },
     {
@@ -376,7 +376,7 @@ const Projects = () => {
       architect: 'Planning Systems',
       quantitySurveyor: 'Costwise Consultants',
       value: 'KES 45 Million',
-      contract: 'Specialized Contract',
+      contract: 'SUB CONTRACT',
       label: 'IHUB'
     },
     {
@@ -392,7 +392,7 @@ const Projects = () => {
       architect: 'Tej Architects',
       quantitySurveyor: 'Zimaki Consult',
       value: 'KES 75 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       label: 'CLASSROOMS'
     },
     {
@@ -407,7 +407,7 @@ const Projects = () => {
       client: 'Gertrude Children Hospital',
       architect: 'Peter Thomas',
       value: 'KES 120 Million',
-      contract: 'Labor Contract - 11 Million',
+      contract: 'SUB CONTRACT',
       label: 'HOSPITAL'
     },
     {
@@ -426,7 +426,7 @@ const Projects = () => {
       architect: 'FHG Architecture Kenya Ltd',
       quantitySurveyor: 'Afri Cost Kenya Ltd',
       value: 'KES 140 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       label: 'AGA KHAN'
     },
     {
@@ -442,7 +442,7 @@ const Projects = () => {
       architect: 'Shelter Systems Ltd',
       quantitySurveyor: 'Costwise Consultants',
       value: 'KES 220 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       label: 'INDUSTRIAL'
     },
     {
@@ -458,7 +458,7 @@ const Projects = () => {
       architect: 'Advents Inhouse Africa Ltd',
       quantitySurveyor: 'Zimaki Consultants',
       value: 'KES 78 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       label: 'DAHLIA'
     },
     {
@@ -474,7 +474,7 @@ const Projects = () => {
       architect: 'Micasa Design',
       quantitySurveyor: 'Zimaki',
       value: 'KES 50 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       label: 'RESIDENTIAL HOUSE'
     },
     {
@@ -490,7 +490,7 @@ const Projects = () => {
       architect: 'Arch Link International',
       quantitySurveyor: 'Quantline System',
       value: 'KES 35 Million',
-      contract: 'Main Contract',
+      contract: 'SUB CONTRACT',
       label: 'SUNSET VILLA'
     }
   ];
