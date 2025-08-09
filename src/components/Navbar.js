@@ -62,13 +62,24 @@ const Navbar = () => {
 
           {/* Contact Button & Auth */}
           <div className="hidden lg:flex items-center space-x-4">
-            <a
-              href="tel:+254723691123"
-              className="flex items-center space-x-2 text-primary-600 hover:text-primary-700 transition-colors"
-            >
-              <Phone size={18} />
-              <span className="font-medium">0723 691 123</span>
-            </a>
+            <div className="flex items-center space-x-3">
+              <a
+                href="tel:+254723691123"
+                className="flex items-center space-x-2 text-primary-600 hover:text-primary-700 transition-colors"
+              >
+                <Phone size={18} />
+                <span className="font-medium">0723 691 123</span>
+              </a>
+              <a
+                href="https://wa.me/254723691123?text=Hello! I'm interested in your engineering services."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-500 hover:bg-green-600 text-white px-2 py-1 rounded text-sm font-medium"
+                title="WhatsApp"
+              >
+                💬
+              </a>
+            </div>
             <Link to="/contact" className="btn-primary">
               Get Quote
             </Link>
@@ -111,13 +122,24 @@ const Navbar = () => {
                 </Link>
               ))}
               <div className="pt-4 border-t border-secondary-200">
-                <a
-                  href="tel:+254723691123"
-                  className="flex items-center space-x-2 text-primary-600 hover:text-primary-700 transition-colors mb-4"
-                >
-                  <Phone size={18} />
-                  <span className="font-medium">0723 691 123</span>
-                </a>
+                <div className="flex flex-col space-y-3 mb-4">
+                  <a
+                    href="tel:+254723691123"
+                    className="flex items-center space-x-2 text-primary-600 hover:text-primary-700 transition-colors"
+                  >
+                    <Phone size={18} />
+                    <span className="font-medium">0723 691 123</span>
+                  </a>
+                  <a
+                    href="https://wa.me/254723691123?text=Hello! I'm interested in your engineering services."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-2 bg-green-500 hover:bg-green-600 text-white px-3 py-2 rounded font-medium transition-colors"
+                  >
+                    <span>💬</span>
+                    <span>WhatsApp</span>
+                  </a>
+                </div>
                 <Link
                   to="/contact"
                   onClick={() => setIsOpen(false)}

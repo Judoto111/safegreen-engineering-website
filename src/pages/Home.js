@@ -308,12 +308,22 @@ const Home = () => {
               <Link to="/contact" className="bg-white text-primary-600 hover:bg-secondary-100 font-medium py-4 px-8 rounded-lg transition-colors duration-200">
                 Get Free Consultation
               </Link>
-              <a 
-                href="tel:+254700000000" 
-                className="border-2 border-white text-white hover:bg-white hover:text-primary-600 font-medium py-4 px-8 rounded-lg transition-colors duration-200"
-              >
-                Call Now: 0723 691 123
-              </a>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <a 
+                  href="tel:+254723691123" 
+                  className="border-2 border-white text-white hover:bg-white hover:text-primary-600 font-medium py-3 px-6 rounded-lg transition-colors duration-200"
+                >
+                  📞 Call: 0723 691 123
+                </a>
+                <a 
+                  href="https://wa.me/254723691123?text=Hello! I'm interested in your engineering services." 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200"
+                >
+                  💬 WhatsApp
+                </a>
+              </div>
             </div>
           </motion.div>
         </div>

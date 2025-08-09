@@ -45,6 +45,12 @@ const Contact = () => {
       action: 'tel:+254723691123'
     },
     {
+      icon: MessageCircle,
+      title: 'WhatsApp',
+      details: ['0723 691 123'],
+      action: 'https://wa.me/254723691123?text=Hello! I\'m interested in your engineering services.'
+    },
+    {
       icon: Mail,
       title: 'Email',
       details: ['info@SGE.CO.KE', 'SAFEGREENENGINEERING@gmail.com'],
@@ -316,16 +322,27 @@ const Contact = () => {
 
               {/* Quick Contact Buttons */}
               <div className="mt-8 space-y-4">
-                <a
-                  href="tel:+254723691123"
-                  className="flex items-center justify-center w-full bg-primary-600 hover:bg-primary-700 text-white font-medium py-4 px-6 rounded-lg transition-colors duration-200"
-                >
-                  <Phone size={20} className="mr-2" />
-                  Call Now: 0723 691 123
-                </a>
+                <div className="flex flex-col sm:flex-row gap-3 w-full">
+                  <a
+                    href="tel:+254723691123"
+                    className="flex items-center justify-center flex-1 bg-primary-600 hover:bg-primary-700 text-white font-medium py-4 px-6 rounded-lg transition-colors duration-200"
+                  >
+                    <Phone size={20} className="mr-2" />
+                    Call Now
+                  </a>
+                  <a
+                    href="https://wa.me/254723691123?text=Hello! I'm interested in your engineering services."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center flex-1 bg-green-500 hover:bg-green-600 text-white font-medium py-4 px-6 rounded-lg transition-colors duration-200"
+                  >
+                    <MessageCircle size={20} className="mr-2" />
+                    WhatsApp
+                  </a>
+                </div>
                 
                 <a
-                  href="https://wa.me/254700000000?text=Hello! I'm interested in your engineering services."
+                  href="https://wa.me/254723691123?text=Hello! I'm interested in your engineering services."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-full bg-green-600 hover:bg-green-700 text-white font-medium py-4 px-6 rounded-lg transition-colors duration-200"
@@ -390,12 +407,22 @@ const Contact = () => {
               mechanical engineering vision to life.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="tel:+254723691123"
-                className="bg-white text-primary-600 hover:bg-secondary-100 font-medium py-4 px-8 rounded-lg transition-colors duration-200"
-              >
-                Call Now: 0723 691 123
-              </a>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a
+                  href="tel:+254723691123"
+                  className="bg-white text-primary-600 hover:bg-secondary-100 font-medium py-4 px-8 rounded-lg transition-colors duration-200"
+                >
+                  📞 Call: 0723 691 123
+                </a>
+                <a
+                  href="https://wa.me/254723691123?text=Hello! I'm interested in your engineering services."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-green-500 hover:bg-green-600 text-white font-medium py-4 px-8 rounded-lg transition-colors duration-200"
+                >
+                  💬 WhatsApp
+                </a>
+              </div>
               <a
                 href="mailto:info@safegreenengineering.co.ke"
                 className="border-2 border-white text-white hover:bg-white hover:text-primary-600 font-medium py-4 px-8 rounded-lg transition-colors duration-200"

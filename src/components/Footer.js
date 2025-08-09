@@ -108,12 +108,23 @@ const Footer = () => {
                 
                 <div className="flex items-center space-x-3">
                   <Phone size={20} className="text-primary-400 flex-shrink-0" />
-                  <a
-                    href="tel:+254700000000"
-                    className="text-secondary-300 hover:text-primary-400 transition-colors duration-200"
-                  >
-                    0723 691 123
-                  </a>
+                  <div className="flex items-center space-x-3">
+                    <a
+                      href="tel:+254723691123"
+                      className="text-secondary-300 hover:text-primary-400 transition-colors duration-200"
+                    >
+                      0723 691 123
+                    </a>
+                    <a
+                      href="https://wa.me/254723691123?text=Hello! I'm interested in your engineering services."
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-green-500 hover:bg-green-600 text-white px-2 py-1 rounded text-sm transition-colors duration-200"
+                      title="WhatsApp"
+                    >
+                      💬
+                    </a>
+                  </div>
                 </div>
                 
                 <div className="flex items-center space-x-3">
