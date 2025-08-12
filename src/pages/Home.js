@@ -142,7 +142,7 @@ const Home = () => {
               Our Core Services
             </h2>
             <p className="text-lg text-secondary-600 max-w-2xl mx-auto">
-              We provide comprehensive mechanical engineering solutions tailored to meet the unique needs 
+              We provide comprehensive mechanical and electrical  engineering solutions tailored to meet the unique needs 
               of our clients across various industries.
             </p>
           </motion.div>
@@ -301,7 +301,7 @@ const Home = () => {
               Ready to Start Your Project?
             </h2>
             <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-              Let's discuss your mechanical engineering needs and create a solution that exceeds your expectations.
+              Let's discuss your mechanical and electrical engineering needs and create a solution that exceeds your expectations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact" className="bg-white text-primary-600 hover:bg-secondary-100 font-medium py-4 px-8 rounded-lg transition-colors duration-200">

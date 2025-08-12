@@ -46,7 +46,7 @@ const Footer = () => {
                 </div>
               </div>
               <p className="text-secondary-300 mb-6">
-                Leading mechanical engineering solutions in Kenya. We specialize in HVAC, plumbing, 
+                Leading mechanical and electrical engineering solutions in Kenya. We specialize in HVAC, plumbing, 
                 fire protection, and sustainable engineering systems.
               </p>
               <div className="flex space-x-4">

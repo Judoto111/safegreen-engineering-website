@@ -118,7 +118,7 @@ const Contact = () => {
             </h1>
             <p className="text-xl text-secondary-200 max-w-3xl mx-auto">
               Ready to start your project? Get in touch with our team for a free consultation 
-              and quote. We're here to help with all your mechanical engineering needs.
+              and quote. We're here to help with all your mechanical and electrical engineering needs.
             </p>
           </motion.div>
         </div>

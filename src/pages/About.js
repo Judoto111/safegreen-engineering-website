@@ -73,7 +73,7 @@ const About = () => {
   position: 'NETWORK ENGINEER',
   image: 'images/jonah-langat.jpeg',
   experience: '10+ years',
-},
+},   
     {
       name: 'EVANS CHIRCHIR',
       position: 'LOGISTICS',
@@ -182,7 +182,7 @@ const About = () => {
                 <h3 className="text-2xl font-bold text-secondary-900">Our Vision</h3>
               </div>
               <p className="text-secondary-600">
-                To be the most trusted, reliable, and cost-effective provider of mechanical 
+                To be the most trusted, reliable, and cost-effective provider of mechanical and electical
                 engineering solutions in Kenya and the region.
               </p>
             </motion.div>
