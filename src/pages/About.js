@@ -46,37 +46,38 @@ const About = () => {
     {
       name: 'SIMON KIMUTAI',
       position: 'DIRECTOR',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face',
+      image: 'images/simon-kimutai.jpeg',
       experience: '25+ years',
     },
     {
-      name: 'SAMORA MWIROTSI',
-      position: 'ENGINEER MECHANICAL',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face',
-      experience: '20+ years',
-    },
+  name: 'SAMORA MWIROTSI',
+  position: 'ENGINEER MECHANICAL',
+  image: 'images/samira-mwirotsi.jpeg',
+  experience: '20+ years',
+},
+
     {
       name: 'BENARD MWANGI',
       position: 'ENGINEER ELECTRICAL',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face',
+      image: 'images/benard-mwangi.jpeg',
       experience: '15+ years',
     },
     {
-      name: 'MOSES SADERA',
-      position: 'BIM MANAGER',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face',
-      experience: '12+ years',
-    },
+  name: 'MOSES SADERA',
+  position: 'BIM MANAGER',
+  image: 'images/moses-sadera.jpeg',
+  experience: '12+ years',
+},
     {
-      name: 'JONAH LANGAT',
-      position: 'NETWORK ENGINEER',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face',
-      experience: '10+ years',
-    },
+  name: 'JONAH LANGAT',
+  position: 'NETWORK ENGINEER',
+  image: 'images/jonah-langat.jpeg',
+  experience: '10+ years',
+},
     {
       name: 'EVANS CHIRCHIR',
       position: 'LOGISTICS',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face',
+      image: 'images/evans-chirchir.jpeg',
       experience: '8+ years',
     },
   ];
@@ -417,17 +418,17 @@ const About = () => {
             {[{
               name: 'SIMON KIMUTAI',
               title: 'DIRECTOR',
-              image: 'https://randomuser.me/api/portraits/men/32.jpg',
+              image: 'images/simon-kimutai.jpeg',
               bio: 'Simon brings over 25 years of experience in mechanical engineering and project management.'
             }, {
               name: 'SAMORA MWIROTSI',
               title: 'ENGINEER MECHANICAL',
-              image: 'https://randomuser.me/api/portraits/women/44.jpg',
+              image: 'images/samira-mwirotsi.jpeg',
               bio: 'Samora is an expert in mechanical engineering systems and leads our technical team.'
             }, {
               name: 'BENARD MWANGI',
               title: 'ENGINEER ELECTRICAL',
-              image: 'https://randomuser.me/api/portraits/men/65.jpg',
+              image: 'images/benard-mwangi.jpeg',
               bio: 'Benard specializes in electrical engineering and ensures all electrical systems are optimally designed.'
             }].map((member, idx) => (
               <motion.div
