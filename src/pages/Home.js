@@ -90,11 +90,10 @@ const Home = () => {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
-              Leading <span className="text-gradient">Mechanical Engineering</span> Solutions
+              Leading <span className="text-gradient">Mechanical and Electrical Engineering</span> Solutions
             </h1>
             <p className="text-xl md:text-2xl text-secondary-200 mb-8 max-w-3xl mx-auto">
-              Safegreen Engineering Ltd delivers innovative, sustainable, and reliable mechanical engineering 
-              solutions across Kenya. From HVAC systems to solar solutions, we build the future.
+              Safegreen Engineering Ltd delivers innovative, sustainable, and dependable engineering solutions across Kenya. With expertise in electrical systems, HVAC, and solar technologies, we are dedicated to advancing the future through reliable and cutting-edge mechanical and electrical engineering services.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact" className="btn-primary text-lg px-8 py-4">
