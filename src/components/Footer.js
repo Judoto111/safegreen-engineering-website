@@ -130,7 +130,7 @@ const Footer = () => {
                 <div className="flex items-center space-x-3">
                   <Mail size={20} className="text-primary-400 flex-shrink-0" />
                   <a
-                    href="mailto:info@safegreenengineering.co.ke"
+                    href="mailto:info@safegreen.co.ke"
                     className="text-secondary-300 hover:text-primary-400 transition-colors duration-200"
                   >
                     info@safegreenengineering.co.ke
