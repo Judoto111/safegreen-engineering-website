@@ -119,12 +119,12 @@ This project is proprietary software for Safegreen Engineering Ltd.
 
 - **Developer**: [Your Name]
 - **Client**: Safegreen Engineering Ltd
-- **Contact**: info@SGE.CO.KE
+- **Contact**: info@safegreen.co.ke
 
 ## 📞 Support
 
 For technical support or questions about this website:
-- Email: info@SGE.CO.KE
+- Email: info@safegreen.co.ke
 - Phone: 0723 691 123
 - Address: Victory House 2nd Floor, Suite No.6, Garden Estate Road Nairobi
 

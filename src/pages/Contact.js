@@ -53,8 +53,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@SGE.CO.KE', 'SAFEGREENENGINEERING@gmail.com'],
-      action: 'mailto:info@SGE.CO.KE'
+      details: ['info@safegreen.co.ke', 'SAFEGREENENGINEERING@gmail.com'],
+      action: 'mailto:info@safegreen.co.ke'
     },
     {
       icon: MapPin,
