@@ -133,7 +133,7 @@ const Footer = () => {
                     href="mailto:info@safegreen.co.ke"
                     className="text-secondary-300 hover:text-primary-400 transition-colors duration-200"
                   >
-                    info@safegreenengineering.co.ke
+                    info@safegreen.co.ke
                   </a>
                 </div>
                 
