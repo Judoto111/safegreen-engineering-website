@@ -424,7 +424,7 @@ const Contact = () => {
                 </a>
               </div>
               <a
-                href="mailto:info@safegreenengineering.co.ke"
+                href="mailto:info@safegreen.co.ke"
                 className="border-2 border-white text-white hover:bg-white hover:text-primary-600 font-medium py-4 px-8 rounded-lg transition-colors duration-200"
               >
                 Send Email
